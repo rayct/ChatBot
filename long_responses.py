@@ -8,6 +8,8 @@ def unknown():
     response = ["Could you please re-phrase that? ",
                 "...",
                 "Sounds about right.",
-                "What does that mean?"][
-        random.randrange(4)]
+                "What does that mean?",
+                "DON'T WASTE MY TIME!",
+                "SOD OFF YOU TIME WASTER"][
+        random.randrange(6)]
     return response
